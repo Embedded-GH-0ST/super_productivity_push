@@ -1,0 +1,19 @@
+# Python junk (compiled files)
+__pycache__/
+*.py[cod]
+
+# Virtual Environments (never push these!)
+venv/
+env/
+
+# Data Engineering specific: Ignore large data files or local databases
+*.csv
+*.json
+*.sqlite
+
+# Security: Ignore environment variables (where your API keys live)
+.env
+
+# Windows/Linux system junk
+.DS_Store
+Thumbs.db
